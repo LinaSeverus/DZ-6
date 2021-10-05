@@ -10,15 +10,15 @@
 
 // Task 2
 
-let hour = prompt('Введите количество часов');
+const hour = prompt('Введите количество часов');
 
-let seconds = (+hour * 3600) / 1;
+const seconds = (+hour * 3600) / 1;
 
 alert(`В ${hour} ч будет ${seconds} секунд`);
 
 // Task 3
 
-var num = 1;
+let num = 1;
 
 num += 12;
 num -= 14;
